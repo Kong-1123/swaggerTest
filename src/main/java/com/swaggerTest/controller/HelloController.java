@@ -1,9 +1,6 @@
 package com.swaggerTest.controller;
 
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author: Kong
@@ -22,5 +19,9 @@ public class HelloController {
     @DeleteMapping
     public String delHello(){
         return "李四";
+    }
+    @PostMapping("addHello")
+    public String addHello(){
+        return "I LOVE LMP";
     }
 }

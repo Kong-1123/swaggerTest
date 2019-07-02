@@ -40,7 +40,7 @@ public class SwaggerConfig {
         Contact contact = new Contact("李梦培", "联系人访问链接", "邮箱");
         return new ApiInfoBuilder()
                 .title("Swagger API接口文档")
-                .description("孔维潮喜欢李梦培")
+                .description("这是swagger接口文档")
                 .contact(contact)
                 .version("v1.0.0")
                 .build();
